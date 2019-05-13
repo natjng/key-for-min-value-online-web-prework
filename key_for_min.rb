@@ -9,6 +9,7 @@ def key_for_min_value(name_hash)
     0.upto(arr_v.length-1) do |i|
       if arr_v[i] > arr_v[i+1]
         arr_v[i], arr_v[i+1] = arr_v[i+1], arr_v[i]
+        swapped = true
       end
      
     end
