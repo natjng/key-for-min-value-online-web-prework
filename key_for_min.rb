@@ -29,3 +29,9 @@ def key_for_min_value(name_hash)
     end
   end
 end
+
+# arr_v.collect do
+#   |i| if arr_v[i]>arr_v[i+1]
+# arr_v[i], arr_v[i+1] = arr_v[i+1], arr_v[i]
+# end
+# end
