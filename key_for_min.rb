@@ -24,8 +24,8 @@ def key_for_min_value(name_hash)
   value = array_of_v[0]
   name_hash.collect do
     |k,v|
-    if v = value
-    return k
+    if v == value
+    k
     end
   end
 end
