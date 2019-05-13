@@ -9,11 +9,6 @@ def key_for_min_value(name_hash)
   arr_v = name_hash.collect {|k,v| v}
   i = 0
   while i < arr_v.length
-    array_of_v.collect do |i|
-      temp_array = array_of_v.dup
-      temp_array[i], temp_array[i+1] = temp_array[i+1], temp_array[i]
-      sorted_array_of_v << temp_array
-      #sorted_array_of_v
       if arr_v[i] > arr_v[i+1}
         arr_v[i], arr_v[i+1] = arr_v[i+1], arr_v[i]
       i +=1
