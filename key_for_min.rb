@@ -6,9 +6,9 @@ def key_for_min_value(name_hash)
     return nil
   end
   array_of_v = []
-  name_hash.collect do
+  array_of_v = name_hash.collect do
     |k,v|
-    array_of_v << v
+    v
   end
   i = 0
   sorted_array_of_v = []
