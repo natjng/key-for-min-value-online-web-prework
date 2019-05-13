@@ -6,10 +6,7 @@ def key_for_min_value(name_hash)
     return nil
   end
   arr_v = []
-  arr_v = name_hash.collect do
-    |k,v|
-    v
-  end
+  arr_v = name_hash.collect {|k,v| v}
   i = 0
   while i < arr_v.length
     array_of_v.collect do |i|
