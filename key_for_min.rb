@@ -4,14 +4,13 @@
 def key_for_min_value(name_hash)
   arr_v = []
   arr_v = name_hash.collect {|k,v| v}
-  i = 0
-  arr_v.collect
-    while i < arr_v.length 
+  #i = 0
+ 
     0.upto(arr_v.length-1) do |i|
       if arr_v[i] > arr_v[i+1]
         arr_v[i], arr_v[i+1] = arr_v[i+1], arr_v[i]
       end
-      i +=1
+      #i +=1
     end
   value = arr_v[0]
   name_hash.collect do
