@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
   i = 0
   arr_v.collect
     while i < arr_v.length 
-    0.upto(arr_v.size-2) do |i|
+    0.upto(arr_v.length-1) do |i|
       if arr_v[i] > arr_v[i+1]
         arr_v[i], arr_v[i+1] = arr_v[i+1], arr_v[i]
       end
