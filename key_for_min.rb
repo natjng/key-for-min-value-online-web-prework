@@ -34,5 +34,7 @@ def key_for_min_value(name_hash)
     name_hash.each do
       |k,v|
       if v < min_v
-        min_k
+        min_v = v
+        min_k = k
+        
 end
