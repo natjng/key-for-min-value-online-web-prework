@@ -19,9 +19,9 @@ def key_for_min_value(name_hash)
       sorted_array_of_v << temp_array
       #sorted_array_of_v
       if array_of_v[i] > array_of_v[i+1}
-        
-      
+        array_of_v_v[i], arr_v[i+1] = arr_v[i+1], arr_v[i]
       i +=1
+      end
     end
   end
   value = array_of_v[0]
