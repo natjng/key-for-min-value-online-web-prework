@@ -33,5 +33,5 @@ def key_for_min_value(name_hash)
     min_k = name_hash.first[0]
     name_hash.each do
       |k,v|
-      if k < 
+      if v < min_v
 end
